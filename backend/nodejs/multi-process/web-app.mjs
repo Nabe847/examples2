@@ -1,5 +1,5 @@
 import http from 'http';
-import { fibonacci } from './fibonacci.mjs';
+import { fibonacci } from '../fibonacci.mjs';
 
 http.createServer((req, res) => {
     const n = Number(req.url.substring(1));
