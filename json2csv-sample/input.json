@@ -1,0 +1,17 @@
+[
+    {
+        "userId": "1",
+        "name": "user1",
+        "scores": [100, 200, 300]
+    },
+    {
+        "userId": "2",
+        "name": "user2",
+        "scores": [400, 500]
+    },
+    {
+        "userId": "3",
+        "name": "user3",
+        "scores": [700]
+    }
+]
