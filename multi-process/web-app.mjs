@@ -1,9 +1,12 @@
 import http from 'http';
-import { fibonacci } from '../fibonacci.mjs';
+
+function fibonacci(n) {
+    return n <= 1 ? n : fibonacci(n - 1) + fibonacci(n - 2);
+}
 
 http.createServer((req, res) => {
     const n = Number(req.url.substring(1));
-    if(Number(isNaN(n))){
+    if (Number(isNaN(n))) {
         return res.end();
     }
 
