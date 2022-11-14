@@ -5,5 +5,5 @@ const app = express();
 app.use('/graphql', graphqlApi());
 
 app.listen(4000, () => {
-    console.log('Server Listen On localhost:4000/graphql');
+    console.log('Server Listen On http://localhost:4000/graphql');
 });
