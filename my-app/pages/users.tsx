@@ -9,7 +9,7 @@ const Users = () => {
 
     return (
         <TableContainer>
-            <Table variant="simple">
+            <Table>
                 <Thead>
                     <Tr>
                         <Th isNumeric>ID</Th>
@@ -21,10 +21,11 @@ const Users = () => {
                     </Tr>
                 </Thead>
                 <Tbody>
-                    {users?.map((user) => {
+                    {users?.map((user, i) => {
                         return (
                             <Tr
                                 key={user.id}
+                                bgColor={i % 2 ? '' : '#f0ffff'}
                                 _hover={{
                                     bgColor: '#b1eeff',
                                 }}
