@@ -12,6 +12,10 @@ app.post('/echo', (req, res) => {
     res.send(req.body);
 });
 
+app.get('/greet', (req, res) => {
+    res.send('hello');
+});
+
 app.listen(3000, () => {
     console.log('server listen on 3000');
 });
