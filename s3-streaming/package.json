@@ -1,0 +1,17 @@
+{
+  "name": "s3-streaming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.468.0",
+    "@aws-sdk/lib-storage": "^3.468.0",
+    "uuid": "^9.0.1"
+  }
+}
